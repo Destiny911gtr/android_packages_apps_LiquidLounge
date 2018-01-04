@@ -24,6 +24,12 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.liquid.liquidlounge.fragments.HeadsUpSettings" />
+    
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
 
     <!-- Battery light -->
     <Preference
@@ -52,7 +58,8 @@
         android:title="@string/disable_fc_notifications_title"
         android:summary="@string/disable_fc_notifications_summary"
         android:defaultValue="false" />
-
+    
+    
     <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
