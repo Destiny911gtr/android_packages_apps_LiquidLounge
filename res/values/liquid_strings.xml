@@ -1056,4 +1056,8 @@
     <string name="animation15">Fast Rotation</string>
     <string name="reset_message">Reset all entries to default?</string>
 
+    <!-- Toast icon -->
+    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_summary">Display icon of activity that generates toast message</string>
+
 </resources>
