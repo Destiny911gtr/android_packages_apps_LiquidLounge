@@ -57,8 +57,7 @@
         android:key="disable_fc_notifications"
         android:title="@string/disable_fc_notifications_title"
         android:summary="@string/disable_fc_notifications_summary"
-        android:defaultValue="false" />
-    
+        android:defaultValue="false" />  
     
     <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
         android:key="toast_icon"
